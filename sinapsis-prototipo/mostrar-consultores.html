@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
+    <title>SinapsisUAO - Centro de innovación & emprendimiento</title>
+
+    <!-- General CSS Files -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <!-- CSS Libraries -->
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+
+<body class="layout-3">
+<div id="app">
+    <div class="main-wrapper container">
+        <div class="navbar-bg"></div>
+        <nav class="navbar navbar-expand-lg main-navbar">
+            <a href="/" class="navbar-brand sidebar-gone-hide"><img src="assets/img/sinapsis-top.png"
+                                                                             width="155"></a>
+            <div class="navbar-nav">
+                <a href="#" class="nav-link sidebar-gone-show" data-toggle="sidebar"><i class="fas fa-bars"></i></a>
+            </div>
+            <div class="nav-collapse">
+                <a class="sidebar-gone-show nav-collapse-toggle nav-link" href="#">
+                    <i class="fas fa-ellipsis-v"></i>
+                </a>
+                <ul class="navbar-nav">
+                    <li class="nav-item "><a href="empieza-a-transformar.html" class="nav-link"><i class="fas fa-rocket icon-left text-white-all mb-2"></i> Empieza a transformar</a></li>
+                    <li class="nav-item"><a href="agenda-una-cita.html" class="nav-link">Agenda una cita con el progreso</a></li>
+                    <li class="nav-item active"><a href="/" class="nav-link">Sobre nosotros</a></li>
+                </ul>
+            </div>
+            <form class="form-inline ml-auto">
+                <ul class="navbar-nav">
+                    <li><a href="#" data-toggle="search" class="nav-link nav-link-lg d-sm-none"><i
+                            class="fas fa-search"></i></a></li>
+                </ul>
+                <div class="search-element">
+                    <input class="form-control" type="search" placeholder="Buscar" aria-label="Search" data-width="250">
+                    <button class="btn" type="submit"><i class="fas fa-search"></i></button>
+                    <div class="search-backdrop"></div>
+
+                </div>
+            </form>
+            <ul class="navbar-nav navbar-right">
+                <li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown"
+                                                             class="nav-link nav-link-lg message-toggle beep"><i
+                        class="far fa-envelope"></i></a>
+                    <div class="dropdown-menu dropdown-list dropdown-menu-right">
+                        <div class="dropdown-header">Mensajes
+                            <div class="float-right">
+                                <a href="#">Marcar todos como leídos</a>
+                            </div>
+                        </div>
+                        <div class="dropdown-list-content dropdown-list-message">
+                            <a href="#" class="dropdown-item dropdown-item-unread">
+                                <div class="dropdown-item-avatar">
+                                    <img alt="image" src="assets/img/avatar/avatar-1.png" class="rounded-circle">
+                                    <div class="is-online"></div>
+                                </div>
+                                <div class="dropdown-item-desc">
+                                    <b>Juan Llanos</b>
+                                    <p>El perfil de proyecto está súper!</p>
+                                    <div class="time">hace 10 horas</div>
+                                </div>
+                            </a>
+                            <a href="#" class="dropdown-item dropdown-item-unread">
+                                <div class="dropdown-item-avatar">
+                                    <img alt="image" src="assets/img/avatar/avatar-2.png" class="rounded-circle">
+                                </div>
+                                <div class="dropdown-item-desc">
+                                    <b>Jhon Mosquera</b>
+                                    <p>Reunamos los documentos que hacen falta</p>
+                                    <div class="time">hace 10 minutos</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="dropdown-footer text-center">
+                            <a href="#">View All <i class="fas fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </li>
+                <li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown"
+                                                             class="nav-link notification-toggle nav-link-lg beep"><i
+                        class="far fa-bell"></i></a>
+                    <div class="dropdown-menu dropdown-list dropdown-menu-right">
+                        <div class="dropdown-header">Notificaciones
+                            <div class="float-right">
+                                <a href="#">Marcar todas como vistas</a>
+                            </div>
+                        </div>
+                        <div class="dropdown-list-content dropdown-list-icons">
+                            <a href="#" class="dropdown-item dropdown-item-unread">
+                                <div class="dropdown-item-icon bg-danger text-white">
+                                    <i class="fas fa-exclamation-triangle"></i>
+                                </div>
+                                <div class="dropdown-item-desc">
+                                    Te falta subir el documento de perfil de proyecto
+                                    <div class="time text-primary">hace 2 días</div>
+                                </div>
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                <div class="dropdown-item-icon bg-info text-white">
+                                    <i class="far fa-user"></i>
+                                </div>
+                                <div class="dropdown-item-desc">
+                                    Se ha agendado una nueva cita <b>Técnica</b> con Adolfo Ríos
+                                    <div class="time">Hace 20 minutos</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="dropdown-footer text-center">
+                            <a href="#">Ver todos <i class="fas fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </li>
+                <li class="dropdown"><a href="#" data-toggle="dropdown"
+                                        class="nav-link dropdown-toggle nav-link-lg nav-link-user">
+                    <img alt="image" src="assets/img/avatar/avatar-1.png" class="rounded-circle mr-1">
+                    <div class="d-sm-none d-lg-inline-block">Hola, Alicia Restrepo</div>
+                </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <div class="dropdown-title">Gestiona tu cuenta</div>
+                        <a href="#" class="dropdown-item has-icon">
+                            <i class="far fa-user"></i> Perfil
+                        </a>
+                        <a href="#" class="dropdown-item has-icon">
+                            <i class="fas fa-bolt"></i> Mis tareas
+                        </a>
+                        <a href="#" class="dropdown-item has-icon">
+                            <i class="fas fa-cog"></i> Configuraciones
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item has-icon text-danger">
+                            <i class="fas fa-sign-out-alt"></i> Salir
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <nav class="navbar navbar-secondary navbar-expand-lg">
+            <div class="container">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a href="#" data-toggle="dropdown" class="nav-link has-dropdown"><i
+                                class="fas fa-fire"></i><span>Inicio</span></a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item"><a href="empieza-a-transformar.html" class="nav-link">Empieza a transformar</a></li>
+                            <li class="nav-item"><a href="agenda-una-cita.html" class="nav-link">Agenda una cita con el progreso</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link"><i
+                                class="fas fa-lightbulb"></i><span>Sobre nosotros</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <section class="section">
+                <div class="section-body">
+                    <h2 class="section-title">Innovación y emprendimiento</h2>
+                    <p class="section-lead">para la transformación de la de la sociedad</p>
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>Conectando la Universidad de la comunidad para la comunidad</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="assets/img/Elementos-Fondo4-1.png" width="100%">
+                                </div>
+                                <div class="col-md-6 text-justify ">
+                                    <p>SINAPSIS UAO, surge como un nuevo concepto que <span class="text-warning mb-2">integra actores y plataformas</span>
+                                        que
+                                        conforman el ecosistema institucional de innovación y emprendimiento, para
+                                        contribuir al
+                                        <span class="text-warning mb-2">desarrollo del espíritu emprendedor</span>, al
+                                        fortalecimiento de competencias para la
+                                        generación de acciones con potencial innovador, a la <span
+                                                class="text-warning mb-2">creación de espacios y estrategias
+                              para fomentar la curiosidad</span>, entre otras acciones.</p>
+                                    <p>
+                                        Desde el <span class="text-warning mb-2">Centro se diseñan e implementan mecanismos</span>
+                                        tendientes al desarrollo de
+                                        procesos de emprendimiento con enfoque innovador, dinámico y basado en
+                                        conocimiento, <span class="text-warning mb-2">darticulando la Universidad con comunidades y sectores productivos</span>
+                                        estratégicos para la institución y la región, así como con los <span
+                                            class="text-warning mb-2">decosistemas
+                                      regionales y nacionales</span> de innovación y emprendimiento
+                                    </p>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="card-footer bg-whitesmoke">
+                            Actualizado el 18 de Febrero de 2020
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer class="main-footer">
+            <div class="footer-left">
+                <img src="assets/img/UAO-logo-acreditacion.png" width="200"/>
+            </div>
+            <div class="footer-right">
+                <p>
+                    Personería jurídica, Res. No. 0618, de la Gobernación del Valle del Cauca, del 20 de febrero de
+                    1970.<br>
+                    Universidad Autónoma de Occidente, Res. No. 2766, del Ministerio de Educación Nacional, del 13 de
+                    noviembre de 2003.<br>
+                    Acreditación Institucional de Alta Calidad, Res. No. 16740, del 24 de agosto de 2017, con vigencia
+                    hasta el 2021.<br>
+                    Universidad Vigilada MinEducación
+                </p>
+                <p class="text-black-50">
+                    La Universidad Autónoma de Occidente está sujeta a inspección y vigilancia por el Ministerio de
+                    Educación Nacional - Artículo 39 del decreto 1295 de 2010
+                </p>
+                Design By <a href="https://nauval.in/">Muhamad Nauval Azhar</a>
+            </div>
+        </footer>
+    </div>
+</div>
+
+<!-- General JS Scripts -->
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="node_modules/jquery.nicescroll/dist/jquery.nicescroll.min.js"></script>
+<script src="node_modules/moment/moment.js"></script>
+<script src="node_modules/moment/locale/es.js"></script>
+<script src="assets/js/stisla.js"></script>
+<!-- JS Libraies -->
+
+<!-- Template JS File -->
+<script src="assets/js/scripts.js"></script>
+<script src="assets/js/custom.js"></script>
+<!-- Page Specific JS File -->
+
+</body>
+</html>
